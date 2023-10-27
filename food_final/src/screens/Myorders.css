@@ -1,0 +1,36 @@
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item:first-of-type {
+    border-top: 0;
+  }
+  
+  .list-group-item:last-of-type {
+    border-bottom: 0;
+  }
+  
+  .list-group-flush {
+    border: 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5) !important;
+  }
